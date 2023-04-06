@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto+Condensed&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: url("background-1.jpg") no-repeat;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.main-wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.keys{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    opacity: 0.34;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.design{
+    transform: scale(0.95);
+    box-shadow: 4px 4px 5px #51FF0D;
+
+}
+.keys:hover{
+    transform: scale(0.97);
+}
+.keys:active{
+    box-shadow: 4px 4px 5px #51FF0D;
+}
+.letter{
+    user-select: none;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.key-name{
+    margin-bottom: 20px;
+    color: #fcba03;
+    user-select: none;
+}
